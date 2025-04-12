@@ -23,6 +23,7 @@ print("statistics of Purchase column is:\n",
 df['Product_Category_2'] = df['Product_Category_2'].fillna(0)
 df['Product_Category_3'] = df['Product_Category_3'].fillna(0)
 
+#defining the count of people in a particular range of age
 print(df["Age"].value_counts())
 
 # Printing the unique values in each Categorical attribute
